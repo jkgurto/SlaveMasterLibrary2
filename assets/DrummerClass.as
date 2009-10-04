@@ -4,12 +4,10 @@ package assets {
     import flash.display.MovieClip;
     import flash.display.Sprite;
     
-    public class DrummerClass extends MovieClip {
-        
-        private var image:Sprite = new assets.Assets_drummerClass();
+    public class DrummerClass extends assets.Assets_drummerClass {
         
         public function DrummerClass() {
-            this.addChild(image);
+            
         }
 
     }

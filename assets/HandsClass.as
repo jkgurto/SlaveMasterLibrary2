@@ -4,12 +4,9 @@ package assets {
     import flash.display.MovieClip;
     import flash.display.Sprite;
     
-    public class HandsClass extends MovieClip {
-        
-        private var image:MovieClip = new assets.Assets.handsClass();
+    public class HandsClass extends assets.Assets_handsClass {
         
         public function HandsClass() {
-            this.addChild(image);
         }
 
     }
