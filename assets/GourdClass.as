@@ -6,6 +6,7 @@ package assets {
     public class GourdClass extends MovieClipWrapper {
         public function GourdClass() {
             image = new assets.Assets.gourdClass();
+            this.addChild(image);
         }
 
     }
