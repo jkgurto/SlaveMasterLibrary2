@@ -1,13 +1,13 @@
 package assets {
     
     import assets.Assets;
-    import flash.display.MovieClip;
-    import flash.display.Sprite;
+    import assets.MovieClipWrapper;
     
-    public class DrummerClass extends assets.Assets_drummerClass {
+    public class DrummerClass extends MovieClipWrapper {
         
         public function DrummerClass() {
-            
+            image = new assets.Assets.drummerClass();
+            this.addChild(image);
         }
 
     }

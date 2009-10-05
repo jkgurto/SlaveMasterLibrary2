@@ -31,6 +31,12 @@ package assets
         [Embed(source="./slaveship.swf", symbol="assets.WaveClass")]
         public static var waveClass:Class;
         
+        [Embed(source="./slaveship.swf", symbol="assets.WhipClass")]
+        public static var whipClass:Class;
+        
+        [Embed(source="./slaveship.swf", symbol="assets.WoundsClass")]
+        public static var woundsClass:Class;
+        
         // -- Sounds
         [Embed(source="./slaveship.swf", symbol="assets.BackgroundSoundClass")]
         public static var backgroundSoundClass:Class;

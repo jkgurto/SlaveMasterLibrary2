@@ -3,10 +3,10 @@ package assets {
     import assets.Assets;
     import assets.MovieClipWrapper;
     
-    public class HandsClass extends MovieClipWrapper {
+    public class WhipClass extends MovieClipWrapper {
         
-        public function HandsClass() {
-            image = new assets.Assets.handsClass();
+        public function WhipClass() {
+            image = new assets.Assets.whipClass();
             this.addChild(image);
         }
 
