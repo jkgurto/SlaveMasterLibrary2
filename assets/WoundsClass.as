@@ -7,6 +7,7 @@ package assets {
         
         public function WoundsClass() {
             image = new assets.Assets.woundsClass();
+            this.addChild(image);
         }
 
     }

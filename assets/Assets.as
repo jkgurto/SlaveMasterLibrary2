@@ -13,6 +13,15 @@ package assets
         [Embed(source="./slaveship.swf", symbol="assets.DrummerClass")]
         public static var drummerClass:Class;
         
+        [Embed(source="./slaveship.swf", symbol="assets.emoAngryClass")]
+        public static var emoAngryClass:Class;
+        
+        [Embed(source="./slaveship.swf", symbol="assets.emoDeathClass")]
+        public static var emoDeathClass:Class;
+        
+        [Embed(source="./slaveship.swf", symbol="assets.emoThirstyClass")]
+        public static var emoThirstyClass:Class;
+        
         [Embed(source="./slaveship.swf", symbol="assets.GourdClass")]
         public static var gourdClass:Class;
         
