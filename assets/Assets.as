@@ -10,11 +10,11 @@ package assets
         [Embed(source="./slaveship.swf", symbol="assets.CloudClass")]
         public static var cloudClass:Class;
         
-        [Embed(source="./slaveship.swf", symbol="assets.DrumClass")]
-        public static var drumClass:Class;
-        
         [Embed(source="./slaveship.swf", symbol="assets.DrummerClass")]
         public static var drummerClass:Class;
+        
+        [Embed(source="./slaveship.swf", symbol="assets.GourdClass")]
+        public static var gourdClass:Class;
         
         [Embed(source="./slaveship.swf", symbol="assets.GullClass")]
         public static var gullClass:Class;
